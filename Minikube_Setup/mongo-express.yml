@@ -50,4 +50,5 @@ spec:
     - protocol: TCP
       port: 8081  # Service Port
       targetPort: 8081 # Container port
-      nodePort: 30000
+      nodePort: 30000 # Nodeport
+      

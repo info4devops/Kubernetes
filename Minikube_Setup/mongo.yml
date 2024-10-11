@@ -7,7 +7,7 @@ metadata:
     app: mongodb
 spec:
   replicas: 1
-  selector:             # Corrected "selectors" to "selector"
+  selector:             
     matchLabels:
       app: mongodb
   template:
@@ -15,7 +15,7 @@ spec:
       labels:
         app: mongodb
     spec:
-      containers:         # Corrected "container" to "containers"
+      containers:         
         - name: mongodb
           image: mongo
           ports:
